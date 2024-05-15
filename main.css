@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+
+body {
+    background-color: #000;
+}
+
+main, form {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #000000b6;
+    padding: 16px; */
+    margin: 15px;
+    /* border-radius: 10px; */
+}
+
+
+h1 {
+    color: #3e79b1;
+    margin-bottom: 10px;
+}
+
+p, nav {
+    display: flex;
+    color: #f29826;
+    font-size: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+main p i {
+    margin-left: 10px;
+}
+
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    flex-direction: column;
+    padding: 16px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #161515;
+}   
+
+ul {
+    list-style: none;
+}
+
+li a {
+    color: #ddd;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #fff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+label {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+label i {
+    margin-right: 10px;
+}
+
+input {
+    font-size: 15px;
+    border-style: none;
+    width: 400px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.submit {
+    background-color: green;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: rgb(11, 148, 11);
+    transform: scale(1.1);
+}
+
+.clear {
+    background-color: red;
+}
+
+.clear:hover {
+    cursor: pointer;
+    background-color: rgb(211, 35, 35);
+    transform: scale(1.1);
+}
+
+.buttons i {
+    margin-right: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}

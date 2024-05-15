@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Front-End</title>
+    <link rel="icon" href="./Images/code.ico" type="image/ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/98d7cb019f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>
+                <i class="fa-solid fa-code"></i>
+                Imersão Front-End
+            </h1>
+            <p>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+            </p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#form" id="register">Cadastre-se</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="container">
+                <form id="form">
+                    <div class="form-campo">
+                        <label for="nome"><i class="fa-solid fa-user"></i>Nome Completo</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="form-campo">
+                        <label for="email"><i class="fa-regular fa-envelope"></i>E-mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-campo">
+                        <label for="cpf"><i class="fa-solid fa-id-card"></i>CPF</label>
+                        <input type="text" id="cpf" minlength="14" name="cpf">
+                    </div>
+                    <div class="form-campo">
+                        <label for="telefone"><i class="fa-solid fa-phone"></i>Telefone</label>
+                        <input type="tel" id="telefone" minlength="15" name="telefone">
+                    </div>
+                    <div class="form-campo">
+                        <label for="cidade"><i class="fa-solid fa-map-location-dot"></i>Cidade</label>
+                        <input type="text" id="cidade" name="cidade">
+                    </div>
+                    <div class="form-campo">
+                        <label for="bairro"><i class="fa-solid fa-map-location-dot"></i>Bairro</label>
+                        <input type="text" id="bairro" name="bairro">
+                    </div>
+                    <div class="form-campo">
+                        <label for="cep"><i class="fa-solid fa-map-location-dot"></i>Cep</label>
+                        <input type="text" id="cep" minlength="9" name="cep">
+                    </div>
+                    <div class="form-campo">
+                        <label for="logradouro"><i class="fa-solid fa-map-location-dot"></i>Logradouro</label>
+                        <input type="text" id="logradouro" name="logradouro">
+                    </div>
+                    <div class="form-campo">
+                        <label for="numero"><i class="fa-solid fa-map-location-dot"></i>Número</label>
+                        <input type="number" id="numero" name="numero">
+                    </div>
+                    <div class="form-campo">
+                        <label for="complemento"><i class="fa-solid fa-map-location-dot"></i>Complemento</label>
+                        <input type="text" id="complemento" name="complemento">
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="submit"><i class="fa-regular fa-circle-up"></i>Enviar</button>
+                        <button type="reset" class="clear"><i class="fa-regular fa-trash-can"></i>Apagar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./Js/jquery.mask.min.js"></script>
+    <script src="./Js/jquery.validate.min.js"></script>
+    <script src="./Js/messages_pt_BR.min.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+</html>
